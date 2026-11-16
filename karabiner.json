@@ -7055,11 +7055,13 @@
                         "description": "Hyper Key + a",
                         "manipulators": [
                             {
-                                "description": "m1box: Option+Space",
+                                "description": "m1box: Shift+Control+Option+Space",
                                 "to": [
                                     {
                                         "key_code": "spacebar",
                                         "modifiers": [
+                                            "left_shift",
+                                            "left_control",
                                             "left_option"
                                         ]
                                     }

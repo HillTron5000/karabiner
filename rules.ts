@@ -3115,10 +3115,10 @@ const hyperLayerKeys = {
   // },
 
   a: [
-    // m1box has no Monologue: Hyper+A sends Option+Space there instead
+    // m1box has no Monologue: Hyper+A sends Shift+Control+Option+Space there instead
     {
-      description: 'm1box: Option+Space',
-      to: [{ key_code: 'spacebar', modifiers: ['left_option'] }],
+      description: 'm1box: Shift+Control+Option+Space',
+      to: [{ key_code: 'spacebar', modifiers: ['left_shift', 'left_control', 'left_option'] }],
       conditions: [ON_M1BOX],
     },
     ...SPEECH_TO_TEXT,
